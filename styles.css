@@ -3,13 +3,52 @@ body {
 }
 header {
     background-color: #1F2937;
+
+}
+.header-main {
+    font-size: 3rem;
+    font-family: Bebas Neue;
+    color: #F9FAF8;
+}
+
+nav {
+    font-size: .75rem;
+    font-family: Roboto Bold;
+    color: #F9FAF8;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: Bebas Neue;
+    color: #F9FAF8;
+}
+
+.header-class-three {
+    font-size: .75rem;
+    font-family: Roboto;
+    color: #F9FAF8;
+}
+
+.header-button {
+    font-family: Roboto Bold;
+    font-size: .75rem;
+    color: #ffffff;
+    background-color: #3882F6;
+    border-style: none;
+    border-radius: 5px;
+    padding: .35rem 1.5rem .35rem 1.5rem;
+    
 }
 
 main {
     background-color: #ffffff;
 }
 
-aside {
+figure {
     background-color: #E5E7EB;
 }
 
