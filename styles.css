@@ -1,20 +1,24 @@
 body {
     background-color: black;
+    display: flex;
+    flex-direction: column;
 }
 header {
     background-color: #1F2937;
-
 }
 .header-main {
     font-size: 3rem;
     font-family: Bebas Neue;
     color: #F9FAF8;
+    display: flex;
 }
 
 nav {
     font-size: .75rem;
     font-family: Roboto Bold;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
 }
 
 li {
@@ -25,12 +29,14 @@ h3 {
     font-size: 1rem;
     font-family: Bebas Neue;
     color: #F9FAF8;
+    display: flex;
 }
 
 .header-class-three {
     font-size: .75rem;
     font-family: Roboto;
     color: #F9FAF8;
+    display: flex;
 }
 
 .header-button {
@@ -41,17 +47,55 @@ h3 {
     border-style: none;
     border-radius: 5px;
     padding: .35rem 1.5rem .35rem 1.5rem;
-    
+    display: flex;
 }
 
 main {
     background-color: #ffffff;
+    font-family: Roboto;
+    font-size: .60rem;
+}
+
+.main-title {
+    font-family: Roboto Bold;
 }
 
 figure {
     background-color: #E5E7EB;
+    font-family: Roboto;
+}
+
+figcaption {
+    font-family: Roboto Bold;
+}
+
+aside {
+    background-color: #ffffff;
+    padding: 2rem;
+
+}
+
+.aside-box {
+    background-color: #3882F6;
+   
+}
+
+.aside-button {
+    font-family: Roboto Bold;
+    font-size: .75rem;
+    color: #ffffff;
+    background-color: #3882F6;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: #ffffff;
+    padding: .35rem 1.5rem .35rem 1.5rem;
 }
 
 footer {
+    font-family: Roboto;
+    color: #F9FAF8;
     background-color: #1F2937;
+    padding: 5px;
+    text-align: center;
 }
+
