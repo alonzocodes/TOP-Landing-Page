@@ -6,42 +6,65 @@ body {
 header {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
+}
+
+.header-logo-nav-bar {
+    display: flex;
+    margin-bottom: 1em;
 }
 .header-main {
-    font-size: 3rem;
+    font-size: 1rem;
     font-family: Bebas Neue;
     color: #F9FAF8;
-    order: 0;
-    display: inline;
-    
+    margin-top: 1em;
+    margin-left: 4em;
+    margin-bottom: 0;
 }
 
 nav {
     font-size: .75rem;
     font-family: Roboto Bold;
     color: #F9FAF8;
-    order: 6;
-    display: inline;
-    
 }
 
 ul {
     display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    margin-left: 600px;
 }
 
 li {
     list-style-type: none;
+    margin: 5px;
+
+}
+
+.nav-link {
+    color:#ffffff;
+    text-decoration: none;
+
+}
+
+.nav-link:active {
+    color:#3882F6;
+}
+
+.header-calltoaction {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.calltoaction {
+    margin-left: 4em;
+    margin-bottom: 4em;
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: Bebas Neue;
     color: #F9FAF8;
-    order: 1;
-    display: inline;
    
 }
 
@@ -49,7 +72,7 @@ h3 {
     font-size: .75rem;
     font-family: Roboto;
     color: #F9FAF8;
-    order: 1;
+    margin-right: 30em;
 }
 
 .header-button {
@@ -60,11 +83,11 @@ h3 {
     border-style: none;
     border-radius: 5px;
     padding: .35rem 1.5rem .35rem 1.5rem;
-    order: 2;
+   
 }
 
 .header-image {
-    order: 2;
+    margin-right: 3.5em;
 }
 
 main {
