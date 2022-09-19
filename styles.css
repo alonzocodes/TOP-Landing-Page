@@ -79,13 +79,36 @@ main {
     display: block;
     text-align: center;
     font-size: 1.5rem;
-    margin-top: 1em;
+    font-family: Bebas Neue;
+    margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
 
 .main-content {
     display: flex;
+    justify-content: space-around;
+    margin-bottom: 5em;
 }
+
+ .main-img-all {
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+
+.main-content-one {
+   margin-left: 135px;
+}
+
+.main-fig {
+    margin-right: 140px;
+    text-align: center;
+    font-size: .50rem;
+    font-family: Roboto;
+}
+
+
 
 figure {
     background-color: #E5E7EB;
