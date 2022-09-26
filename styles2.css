@@ -1,7 +1,7 @@
 body {
     margin: auto;
 }
-
+/*Style for Nav and Header Below. */
 nav {
     display: flex;
     flex-direction: row;
@@ -33,7 +33,6 @@ li {
 .nav-link {
     text-decoration: none;
     color: rgb(229, 226, 226);
-    
 }
 
 header {
@@ -43,22 +42,37 @@ header {
     background-color: rgb(25, 45, 70);
 }
 
-.call-to-action {
+.header-box {
     display: flex;
     flex-direction: column;
     margin-left: 60px;
+    margin-top: 15px;
     width: 165px;
+    height: 115px;
 }
 
 .header-title {
     font-size: 22px;
-    color: white;
+    color: #f9faf8;
     font-family: Roboto;
     margin-bottom: 0;
 }
 
 .header-para {
     font-size: 8px;
+    font-family: Roboto;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+
+.header-button {
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 3px;
+    width: 65px;
+    padding: 4px;
+    font-size: 8px;
+    color: white;
 }
 
 .img-placeholder {
@@ -66,15 +80,65 @@ header {
     justify-content: center;
     background-color: grey;
     margin: 50px;
-    margin-right: 65px;
+    margin-right: 60px;
     width: 250px;
     height: 115px;
 }
 
 .img-placeholder-text {
-    margin-top: 45px;
+    margin-top: 50px;
     font-size: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-
 }
+
+/*Style for Main Below. */
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.main-title {
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 1.2em;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 65px;
+    margin-right: 19rem;
+}
+
+
+
+.main-content-all {
+   
+}
+
+.box {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    width: 65px;
+    height: 65px;
+    margin-left: 1.2rem;
+}
+
+
+.main-fig {
+    font-size: 7px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 2px;
+    font-family: Roboto;
+    color: black;
+}
+
+/*Start Figure Below*/
+
