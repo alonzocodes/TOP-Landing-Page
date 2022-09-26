@@ -1,6 +1,7 @@
 body {
     margin: auto;
     width: 100%;
+    background-color: black;
 }
 /*Style for Nav and Header Below. */
 nav {
@@ -9,13 +10,14 @@ nav {
     justify-content: center;
     background-color: rgb(25, 45, 70);
     padding-bottom: 15px;
+    width: 75%;
+    margin: auto;
 }
 
 .nav-title {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     font-size: 10px;
-    
 }
 
 ul {
@@ -27,7 +29,7 @@ ul {
 li {
     list-style: none;
     font-family: Roboto;
-    font-size: 8px;
+    font-size: 7px;
     margin-left: 15px;
 }
 
@@ -43,6 +45,8 @@ header {
     justify-content: center;
     background-color: rgb(25, 45, 70);
     height: 150px;
+    width: 75%;
+    margin: auto;
 }
 
 .header-box {
@@ -102,9 +106,9 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
-    height: auto;
-    margin-bottom: 2.5rem;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 2.5rem;
 }
 
 .main-title {
@@ -148,9 +152,8 @@ figure {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: auto;
-    margin: 0;
+    width: 75%;
+    margin: auto;
 }
 
 blockquote {
@@ -180,21 +183,65 @@ aside {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 75%;
+    height: 150px;
+    margin: auto;
 }
 
 .aside-box {
+    display: flex;
+    flex-direction: row;
     background-color: #3882f6;
-    width: 60%;
+    width: 75%;
+    height: 50%;
+    margin: 20px;
+    
 }
+
+.aside-inside-box {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .aside-title {
 
 }
 
 .aside-para {
-
+    font-size: .4em;
 }
 
 .aside-button {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #ffffff;
+    border-radius: 3px;
+    border-width: 1px;
+    width: 70px;
+    height: 20px;
+    padding: 4px;
+    font-size: 8px;
+    color: white;
+}
+
+/*End Aside Styles*/
+
+/*Start Footer Styles*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    background-color:  rgb(25, 45, 70);
+    padding-bottom: .6rem;
+    padding-top: .6rem;
+}
+
+.footer-title {
+    color:rgb(229, 226, 226);
+    font-family: Roboto;
+    font-size: .1em;
 
 }
