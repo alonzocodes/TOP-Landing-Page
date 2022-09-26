@@ -1,5 +1,6 @@
 body {
     margin: auto;
+    width: 100%;
 }
 /*Style for Nav and Header Below. */
 nav {
@@ -98,7 +99,9 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    width: 100%;
     height: auto;
+    margin-bottom: 2.5rem;
 }
 
 .main-title {
@@ -113,12 +116,6 @@ main {
     align-self: center;
     width: 65px;
     margin-right: 19rem;
-}
-
-
-
-.main-content-all {
-   
 }
 
 .box {
@@ -142,3 +139,29 @@ main {
 
 /*Start Figure Below*/
 
+figure {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+blockquote {
+    width: 50%;
+    align-self: center;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.blockquote-para {
+    font-family: Roboto;
+    font-size: .8em;
+}
+
+.blockquote-fig {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .8em;
+    text-align: end;
+}
